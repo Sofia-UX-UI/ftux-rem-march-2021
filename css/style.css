@@ -42,7 +42,7 @@ p {
     /* font-size: 21px; */
 }
 
-section{
+section { 
     /* background-color:green; */
 }
 
@@ -53,30 +53,104 @@ section{
     background-color: whitesmoke;
     width: 200px;
     padding: 20px;
+    margin:20px;
 }
 
-.something{
+.something {
 
 }
 
 /*THIS IS AN ID*/
-#hero{
+#hero {
     /*background-color: tomato;*/
     background-image: url('../img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg');
     background-size: cover;
     text-align:center;
     /* height: 500px */;
     height:60vh;
+    /*flex settings */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-article {
     width:100%
 }
+
 .icon-feature {
     font-size: 3em;
+    margin: 10px;
+    color: darkgreen;
 }
 
-.footer{
+footer {
     height:350px;
     background-color: honeydew;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+#articles {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+}
+
+.author-image {
+    width: 40px;
+    height:40px;
+    margin: 10px;
+}
+
+.author-container {
+    align-items:center;
+}
+
+.feature-card {
+    padding: 10px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#features {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-30 {
+    width: 30%;
+}
+
+.contact-70 {
+    width: 70%;
+}
+
+.fab {
+    margin: 20px;
+}
+
+.icon-social{
+margin: 10px;
+}
+
+header{
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    padding: 10px 30px;
+}
+
+/* THIS IS A CLASS */
+.button-link{
+    background-color: orangered;
+    color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0 / 8%);
 }

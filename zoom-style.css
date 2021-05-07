@@ -1,0 +1,57 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    color:whitesmoke;
+    margin-block: 0.2em;
+}
+
+h2 {
+font-size: 5rem;
+}
+
+h3{
+font-size:1.5rem;
+}
+
+h4{
+font-size: 1.2rem;
+margin-block: 0.5em;
+}
+
+h5{
+    font-size: 2rem;
+}
+h6{
+    font-size: 0.6rem;
+}
+
+#navfooter {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+section { 
+    /* background-color:green; */
+}
+
+#hero1{
+    background-image: url('../img zoom/Zoom image.png');
+}
+
+#footer {
+    background-color: darkslateblue;
+    justify-content: space-between;
+    padding: 30px 60px;
+}

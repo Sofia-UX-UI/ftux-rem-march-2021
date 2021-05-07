@@ -199,7 +199,7 @@ a.button-link:hover{
 /* TABLET */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     h1 {
-       background-color:blue; 
+       background-color: blue; 
        font-size: 4.653rem;
     }
 
@@ -214,7 +214,7 @@ a.button-link:hover{
         background-color: darkmagenta;
         font-size: 5.653rem;
     }
-    header {
-        background-color: royalblue;
-    }
+header {
+    background-color: royalblue;
+}
 }

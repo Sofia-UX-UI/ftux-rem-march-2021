@@ -8,12 +8,8 @@
     <title>Zoom's website</title>
 
     <!-- CSS - start -->
-    <link rel="stylesheet" href="css/zoom-style.css">
-    <style type="text/css">
-        header {
-            background-color: aquamarine;
-        }
-    </style>
+    <link rel="stylesheet" href="zoom-style.css">
+    
 
     <!-- CSS - end -->
 
@@ -25,23 +21,29 @@
     <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
     <i class="far fa-comment-alt"></i>
     
+    
 </head>
 
 <body>
     <!-- header - start -->
     <header class="container">
+       <div>
         <img src="https://st1.zoom.us/static/94184/image/new/ZoomLogo.png" class="logo-header">
-        <nav>
-
+        </div> 
+        <!-- <nav> -->
+        <div class="nav-left-right">
             <a href="#" class="menu">Soluciones</a>
             <a href="#" class="menu">Planes y precios</a>
             <a href="#" class="menu">Contacto de ventas</a>
+        </div>
+        <div class="nav-left-right">
             <a href="#" class="menu">Entrar a una reunion</a>
             <a href="#" class="menu">Ser anfitrion de una reunion</a>
             <a href="#" class="menu">Ingresar</a>
-            <a href="#" class="menu">Ingresar</a>
-            <button>REGISTRESE, ES GRATUITA</button>
-        </nav>
+        </div>
+        <div> <button>REGISTRESE, ES GRATUITA</button> </div>
+        
+        <!-- </nav> -->
     <i class="far fa-comment-alt"></i>
     </header>
     <!-- header - end -->
@@ -50,11 +52,11 @@
 
     <section id="hero1" class="container">
         
-        <h1>Un líder reconocido del Cuadrante Mágico!</h1>
-        <p>Zoom ha sido elegido líder en el Cuadrante Mágico de
+        <div class="info-1"><h1>Un líder reconocido del Cuadrante Mágico!</h1></div>
+        <div class="info-1"><p>Zoom ha sido elegido líder en el Cuadrante Mágico de
             Gartner 2020 para soluciones de reuniones y líder en el
-            Cuadrante Mágico para UCaaS en todo el mundo.</p>
-        <button>Leer los informes</button>
+            Cuadrante Mágico para UCaaS en todo el mundo.</p></div>
+        <div class="info-1"><button>Leer los informes</button></div>
     </section>
 
     <!-- hero-1-end -->
@@ -62,12 +64,13 @@
     <!-- hero-2-start -->
     <section id="hero" class="container">
         <img src="https://st1.zoom.us/static/94184/image/new/home/Ellipse13.png" class="logo-header">
-        <h1>Zoom para usted</h1>
+        <div class="hero2"><h3>Zoom para usted</h3>
         <p>Zoom para usted. Estamos aquí para ayudarle a
             conectarse, comunicarse y expresar sus ideas para que
             puedan hacer más cosas juntos. Estamos orgullosos de
             contar con la confianza de millones de empresas,
             pequeños negocios y particulares como usted.</p>
+        </div>
     </section>
 
 
@@ -140,6 +143,11 @@
         <div>
         <form name="form1">
             Idioma <br><br><select name="subject" id="subject">
+            <option value="" selected="selected">English</option>
+            <option value="" selected="Español">Español</option>
+              <option value="" selected="selected">Select subject</option>
+              <option value="" selected="selected">Select subject</option>
+              <option value="" selected="selected">Select subject</option>
               <option value="" selected="selected">Select subject</option>
             </select>
             <br><br>
@@ -149,8 +157,9 @@
             <br><br>
         
           </form>
-          
-    
+        </div>
+
+        <div>
         <a href="https://www.wordpress.com/" target="_blank"> <span class="icon-social"> <i class="fab fa-wordpress fa-2x"> </i> </span> </a>
         <a href="https://www.linkedin.com/"> <span class="icon-social"> <i class="fab fa-linkedin fa-2x"> </i> </span> </a>
         <a href="https://www.twitter.com/"> <span class="icon-social"> <i class="fab fa-twitter fa-2x"> </i> </span> </a>

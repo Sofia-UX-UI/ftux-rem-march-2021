@@ -47,13 +47,10 @@ section {
     /* background-color:green; */
 }
 
-#hero1 {
+.hero1 {
     background-image: url(img-zoom/first-image.png);
-    background-size: cover;
-    text-align: right;
-    justify-content:left;
-    width: 728px;
-    height: 481px;
+    background-repeat: no-repeat;
+    background-position: right;
 
     /* flex settings */
 
@@ -78,7 +75,8 @@ section {
 
 .container {
     display: flex;
-    padding: 100px;
+    flex-direction: column;
+    margin-left: 50px;
 }
 
 .logo-header {
@@ -97,4 +95,5 @@ section {
 
 .info-1{
     justify-content: left;
+    margin-top: 30px;
 }
